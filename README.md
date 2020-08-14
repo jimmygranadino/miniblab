@@ -17,6 +17,7 @@ Myself as Dev and my cat, Paris, for moral support.
     * Lots of documentation, it'll be fine just get caffienated. 
     * Repeat momentum boost step from above if needed.
 3. Life's tough, get a helmet
+
 ![](https://media1.tenor.com/images/3e8ae9316032197b00ee6488d2f360cc/tenor.gif)
 
 
