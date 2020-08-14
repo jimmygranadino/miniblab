@@ -38,7 +38,7 @@ Myself as Dev and my cat, Paris, for moral support.
 
 ## Wireframe
 
-![wireframe]()
+![wireframe](https://github.com/jimmygranadino/seir_526_p4/blob/master/wireframe/wireframe-spa.png)
 
 ## Plan
 #### Day 1:
