@@ -1,39 +1,87 @@
-# Project 4
-For your fourth project you will work, either on your own or in small teams, to build a proof of concept using a new techonology or library that we have not explored already in class. 
+# P4 - miniBlab
 
-The intention of this project is that you either 1. try out a new technology you've been interested in using, but that we haven't used in class or 2. have an idea for a post cohort project which you can create an MVP of a feature for or an MVP for the project itself during the window of our P4.
+## Description
+**miniBlab:**  A simple chatroom app ala Chatroulette with minimalist design using Vue.js
 
-When trying to scope your P4 think to how much you were able to accomplish during the hackathon, and keep your ideas to projects which include tasks that could fit that scope, plus some added features. 
+## Intended User
+Bored? I don't have a userbase but you can shout into the void until a userbase coalesces -- worked for the solar system on a long enough timeframe.
 
-*What does a non-passing P4 look like?*
-- If you do not make a meaninful attempt at trying and implementing a new technology
-- If you do not build anything substantial
-- If you do not put in meaningful work/git commits all six days of the project (including the weekend)
+## Team
+Myself as Dev and my cat, Paris, for moral support.
+
+## Possible Roadblocks
+1. Never used Vue.js
+    * Learn and implement effectively depends on me grasping things quickly
+    * Need a momentum boost? Literally a youtube tutorial existed for replacing parts of the exact model of my old 2005 Toyota Corolla so getting stuck somewhere is because I'm not looking **(bad)** or don't know what I'm looking for **(bad but understandable)**
+2. Never used Socket io
+    * Lots of documentation, it'll be fine just get caffienated. 
+    * Repeat momentum boost step from above if needed.
+3. Life's tough, get a helmet
+![](https://media1.tenor.com/images/3e8ae9316032197b00ee6488d2f360cc/tenor.gif)
 
 
-## Ideas for Technologies to Use:
-- Vue.js (frontend framework). 
-- GraphQL (frontend querying language. Would recommend using with Hasura so that you don't have to take on Apollo and Prisma breaking change errors). 
-- Unity (in C#)
-- Integrating a Stripe frontend and backup to build a test level functional ecommmerce site
-- D3.js (a data visualization javascript library)
-- React-Bootstrap-Table or another React Table Library to create dynamic tables based on a database you create and seed
+## MVP
+- [ ] Username input to differentiate chat participants
+- [ ] Text input box + send button 
+- [ ] Display chat window and chat history in appropriately sized content section
+    - [ ] Chat history includes Username: Text
+- [ ] Pretty because i 💖 frontend way more
 
-## Pitch Guidelines
-Your P4 Project Pitches will be submitted via pull requets on this repo. *Fork and clone this repo. Make a new file in this repo called `[YOUR NAME]-p4-pitch.md`, Write your markdown in that file. Push up, and submit a pull request to the original repo to submit*. The instructional staff will review your submissions and add feedback/close pull requests. 
+## Stretch Goals
+- [ ] Mobile friendly
+- [ ] SPA if possible because I love SPAs
+- [ ] Register username for unique use
+- [ ] Browseable history log of chatroom any time window is refreshed.
+    - [ ] Maybe limit to 100 messages that can be retrieved
+    - [ ] Might need to clear recent chat for historical messages each time 100+ messages retrieved.
+- [ ] Allow images to be sent 
 
-*Format for pitch markdown:*
-* Name of app
-* Your name/team members
-* New tech you plan on using
+## Wireframe
 
-Answer: 
-1. How do you plan on learning/implementing this new technology?
-2. What is your goal with this project?
-3. Who is the user for your app?
-4. Any potential roadblocks you think you might run into?
+![wireframe]()
 
-Include Graphics or Links to:
-* Breakdown individual tasks and what you plan on working on day by day (in a Trello board or some other project planning tool/format). 
-* Wireframes for app
-* User flow for app
+## Plan
+#### Day 1:
+- [x] Research Vue.js
+- [x] Research Socket NPM docs and how nicely it plays with Vue.js
+- [x] Vue.js crash course (OMG ITS NOT AS HARD AS ITHOUGHT)
+- [x] README pull request
+- [ ] Create the repo and initial commit
+- [ ] Look up neat Vue.js tricks & tips for how to most effective use this part of my tech stack.
+- [ ] npm installs + coffee + scaffolding
+- [ ] 🌊 GIT COMMIT OFTEN!! 🌊
+
+#### Day 2:
+- [ ] Coffee + scaffolding pt.2
+- [ ] Setup and test server with Vue.js
+- [ ] Low 80s weekend forecast for LA, enjoy sunshine.
+- [ ] Test ugly implementation of Socket w/ Vue when day cools off
+- [ ] 🌊 GIT COMMIT(s) 🌊
+
+#### Day 3:
+- [ ] Simple chat app should be somewhat operational?
+- [ ] Implement username
+- [ ] Slap some CSS on to make it pretty
+- [ ] 🌊 GIT COMMIT(s) 🌊
+
+#### Day 4:
+- [ ] Stretch goal time, need DB to store chat history and username registration.
+- [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
+- [ ] 🌊 GIT COMMIT(s) 🌊
+
+#### Day 5: 
+- [ ] TBD
+
+#### Day 6:
+- [ ] TBD
+
+
+## Tech Stack
+* Vue.js
+* Node.js
+* Express
+* Bootstrap for layout + Custom CSS
+* BACKEND: MongoDB maybe? But Postgres will let me deploy to Heroku
+
+## Deployment
+* Netlify (love it) or Heroku (fussy but will host a postgres DB)
