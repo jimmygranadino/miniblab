@@ -53,8 +53,8 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] 🌊 GIT COMMIT OFTEN!! 🌊
 
 #### Day 2:
-- [ ] Coffee + scaffolding pt.2
-- [ ] Setup and test server with Vue.js
+- [x] Coffee + scaffolding pt.2
+- [x] Setup and test server with Vue.js
 - [ ] Low 80s weekend forecast for LA, enjoy sunshine.
 - [ ] Test ugly implementation of Socket w/ Vue when day cools off
 - [ ] 🌊 GIT COMMIT(s) 🌊
