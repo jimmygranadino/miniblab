@@ -47,10 +47,10 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] Research Socket NPM docs and how nicely it plays with Vue.js
 - [x] Vue.js crash course (OMG ITS NOT AS HARD AS ITHOUGHT)
 - [x] README pull request
-- [ ] Create the repo and initial commit
-- [ ] Look up neat Vue.js tricks & tips for how to most effective use this part of my tech stack.
-- [ ] npm installs + coffee + scaffolding
-- [ ] 🌊 GIT COMMIT OFTEN!! 🌊
+- [x] Create the repo and initial commit
+- [x] Look up neat Vue.js tricks & tips for how to most effective use this part of my tech stack.
+- [x] npm installs + coffee + scaffolding
+- [x] 🌊 GIT COMMIT OFTEN!! 🌊
 
 #### Day 2:
 - [ ] Coffee + scaffolding pt.2
