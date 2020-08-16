@@ -55,9 +55,9 @@ Myself as Dev and my cat, Paris, for moral support.
 #### Day 2:
 - [x] Coffee + scaffolding pt.2
 - [x] Setup and test server with Vue.js
-- [ ] Low 80s weekend forecast for LA, enjoy sunshine.
+- [x] Low 80s weekend forecast for LA, enjoy sunshine.
 - [ ] Test ugly implementation of Socket w/ Vue when day cools off
-- [ ] 🌊 GIT COMMIT(s) 🌊
+- [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 3:
 - [ ] Simple chat app should be somewhat operational?
