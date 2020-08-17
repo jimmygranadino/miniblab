@@ -68,11 +68,12 @@ Myself as Dev and my cat, Paris, for moral support.
 #### Day 4:
 - [ ] Fuse my Vue.js and Socket.io beasts into a cute manticore
 - [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
+- [ ] Implement username
+- [ ] Slap some CSS on to make it pretty
 - [ ] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 5: 
-- [ ] Implement username
-- [ ] Slap some CSS on to make it pretty
+
 - [ ] Stretch goal time, need DB to store chat history and username registration.
 - [ ] DEPLOYMENT!
 
