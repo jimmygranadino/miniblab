@@ -1,6 +1,8 @@
 <template>
-    <div>
+    <div class="row mx-auto">
+        <div class="col footer-bg">
 
+        </div>
     </div>
 </template>
 

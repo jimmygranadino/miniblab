@@ -14,5 +14,20 @@
 .chat-bg {
     background-color: #ffffff;
     min-height: 65vh;
-    opacity: 0.85;
+    opacity: 0.75;
+}
+
+.about-bg {
+    background-color: #b0d0c1;
+    min-height: 30vh;
+}
+
+.contact-bg {
+    background-color: #90c5d3;
+    min-height: 30vh;
+}
+
+.footer-bg {
+    background-color: #222222;
+    min-height: 15vh;
 }

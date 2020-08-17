@@ -1,6 +1,6 @@
 <template>
-    <div>
-
+    <div class="col about-bg">
+        test
     </div>
 </template>
 

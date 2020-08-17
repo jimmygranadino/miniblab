@@ -2,8 +2,12 @@
   <div class="container-fluid">
     <Navbar />
     <Chat />
-    <About />
-    <Contact />
+    <div class="row mx-auto my-5"></div>
+    <div class="row mx-auto">
+      <About />
+      <Contact />
+    </div>
+    <div class="row mx-auto my-5"></div>
     <Footer />
   </div>
 </template>

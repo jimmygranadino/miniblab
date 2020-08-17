@@ -1,6 +1,6 @@
 <template>
-    <div>
-
+    <div class="col contact-bg">
+        test
     </div>
 </template>
 
