@@ -3,6 +3,7 @@ let Express = require('express')
 let app = Express()
 let server = require('http').createServer(app)
 let Vue = require('vue/dist/vue.js')
+//const { isObject } = require('core-js/fn/object') // this appeared when I used .emit from socket.io but crashes my app when enabled so pointless since works without it
 let SocketIO = require('socket.io')(server)
 require('dotenv').config()
 
@@ -21,7 +22,7 @@ app.get('/', (req, res) => {
 
 SocketIO.on('connection', (socket) => {
     socket.on('message', (msg) => {
-        console.log('message: ' + msg)
+        SocketIO.emit('message', msg)
     })
     console.log('🦦 user online 🦦')
     socket.on('🌊 disconnected 🌊', () => {
