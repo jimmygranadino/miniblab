@@ -4,7 +4,7 @@ let app = Express()
 let server = require('http').createServer(app)
 let Vue = require('vue/dist/vue.js')
 //const { isObject } = require('core-js/fn/object') // this appeared when I used .emit from socket.io but crashes my app when enabled so pointless since works without it
-let SocketIO = require('socket.io')(server)
+let io = require('socket.io')(server)
 require('dotenv').config()
 
 // vue components
@@ -20,9 +20,9 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/test.html')
 })
 
-SocketIO.on('connection', (socket) => {
+io.on('connection', (socket) => {
     socket.on('message', (msg) => {
-        SocketIO.emit('message', msg)
+        io.emit('message', msg)
     })
     console.log('🦦 user online 🦦')
     socket.on('🌊 disconnected 🌊', () => {

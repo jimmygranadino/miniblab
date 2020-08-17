@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid">
-    <Navbar />
+  <div class="container-fluid" id="fade">
+    <Header />
     <Chat />
     <div class="row mx-auto my-5"></div>
-    <div class="row mx-auto">
+    <div class="row justify-content-center mx-auto">
       <About />
       <Contact />
     </div>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Chat from './components/Chat'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -22,7 +22,7 @@ import Footer from './components/Footer'
 export default {
   name: 'App',
   components: {
-    Navbar,
+    Header,
     Chat,
     About,
     Contact,
