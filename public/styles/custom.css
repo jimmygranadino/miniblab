@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+.blab-bg {
+    background-image: url('./images/tamalpais.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 75vh;
+}
+
+.chat-bg {
+    background-color: #ffffff;
+    min-height: 65vh;
+    opacity: 0.85;
+}
