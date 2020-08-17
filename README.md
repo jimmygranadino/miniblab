@@ -23,7 +23,7 @@ Myself as Dev and my cat, Paris, for moral support.
 
 ## MVP
 - [ ] Username input to differentiate chat participants
-- [ ] Text input box + send button 
+- [x] Text input box + send button 
 - [ ] Display chat window and chat history in appropriately sized content section
     - [ ] Chat history includes Username: Text
 - [ ] Pretty because i 💖 frontend way more
