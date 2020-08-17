@@ -56,25 +56,28 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] Coffee + scaffolding pt.2
 - [x] Setup and test server with Vue.js
 - [x] Low 80s weekend forecast for LA, enjoy sunshine.
-- [ ] Test ugly implementation of Socket w/ Vue when day cools off
 - [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 3:
-- [ ] Simple chat app should be somewhat operational?
-- [ ] Implement username
-- [ ] Slap some CSS on to make it pretty
-- [ ] 🌊 GIT COMMIT(s) 🌊
+- [x] Test ugly implementation of Socket w/ Vue when day cools off
+- [x] Simple chat app operation in console log
+- [x] literally in the 90s all weekend 😭 the forecasts lied
+- [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 4:
-- [ ] Stretch goal time, need DB to store chat history and username registration.
+- [ ] Get messages from console log to dislay in browser
+- [ ] Fuse my Vue.js and Socket.io beasts into a cute manticore
 - [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
 - [ ] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 5: 
-- [ ] TBD
+- [ ] Implement username
+- [ ] Slap some CSS on to make it pretty
+- [ ] Stretch goal time, need DB to store chat history and username registration.
+- [ ] DEPLOYMENT!
 
 #### Day 6:
-- [ ] TBD
+- [ ] Presentation!
 
 
 ## Tech Stack

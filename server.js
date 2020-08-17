@@ -3,7 +3,7 @@ let Express = require('express')
 let app = Express()
 let server = require('http').createServer(app)
 let Vue = require('vue/dist/vue.js')
-let SocketIO = require('socket.io')
+let SocketIO = require('socket.io')(server)
 require('dotenv').config()
 
 // vue components
@@ -16,7 +16,17 @@ require('dotenv').config()
 
 // some basic routes
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html')
+    res.sendFile(__dirname + '/public/test.html')
+})
+
+SocketIO.on('connection', (socket) => {
+    socket.on('message', (msg) => {
+        console.log('message: ' + msg)
+    })
+    console.log('🦦 user online 🦦')
+    socket.on('🌊 disconnected 🌊', () => {
+        console.log('')
+    })
 })
 
 server.listen(process.env.PORT || 5000, () => {
