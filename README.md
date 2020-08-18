@@ -24,9 +24,9 @@ Myself as Dev and my cat, Paris, for moral support.
 ## MVP
 - [ ] Username input to differentiate chat participants
 - [x] Text input box + send button 
-- [ ] Display chat window and chat history in appropriately sized content section
+- [x] Display chat window and chat history in appropriately sized content section
     - [ ] Chat history includes Username: Text
-- [ ] Pretty because i 💖 frontend way more
+- [x] Pretty because i 💖 frontend way more
 
 ## Stretch Goals
 - [ ] Mobile friendly
@@ -66,15 +66,14 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 4:
-- [ ] Fuse my Vue.js and Socket.io beasts into a cute manticore
-- [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
-- [ ] Implement username
-- [ ] Slap some CSS on to make it pretty
-- [ ] 🌊 GIT COMMIT(s) 🌊
+- [x] Fuse my Vue.js and Socket.io beasts into a cute manticore
+- [x] Slap some CSS on to make it pretty
+- [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 5: 
-
+- [ ] Implement username
 - [ ] Stretch goal time, need DB to store chat history and username registration.
+- [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
 - [ ] DEPLOYMENT!
 
 #### Day 6:

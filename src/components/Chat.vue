@@ -1,11 +1,8 @@
 <template>
-    <div class="row justify-content-center mx-auto">
+    <div class="row justify-content-center mx-auto" id="display">
         <div class="col-10 mt-5 blab-bg">
             <div class="row mx-5 my-5 px-3 py-3 chat-bg">
-                    <ul id="messages"></ul>
-                    <form action="">
-                        <input id="m" autocomplete="off" /><button class="button-primary">SEND</button>
-                    </form>
+                <iframe class="col" src="http://localhost:5000/" allowfullscreen></iframe>
             </div>
         </div>
     </div>
