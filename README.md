@@ -22,10 +22,10 @@ Myself as Dev and my cat, Paris, for moral support.
 
 
 ## MVP
-- [ ] Username input to differentiate chat participants
+- [x] Username input to differentiate chat participants
 - [x] Text input box + send button 
 - [x] Display chat window and chat history in appropriately sized content section
-    - [ ] Chat history includes Username: Text
+    - [x] Chat history includes Username: Text
 - [x] Pretty because i 💖 frontend way more
 
 ## Stretch Goals
@@ -71,7 +71,7 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] 🌊 GIT COMMIT(s) 🌊
 
 #### Day 5: 
-- [ ] Implement username
+- [x] Implement username
 - [ ] Stretch goal time, need DB to store chat history and username registration.
 - [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
 - [ ] DEPLOYMENT!

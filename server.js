@@ -22,16 +22,24 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/test.html')
 })
 
+let username = []
+
 io.on('connection', (socket) => {
-    let newUser = false
+
+    let chat = []
+    
     socket.on('message', (msg) => {
+        let newChat = { 
+            chat: msg.message,
+            username: msg.user
+        }
+        chat.push(newChat)
         socket.emit('message', msg)
     })
     console.log('🦦 user online 🦦')
-    socket.on('new user', (username) => {
-        if (newUser) return
-        socket.username = username
-        newUser = true
+    socket.on('new user', (user) => {
+        username.push({ username: user })
+        socket.emit('new user', user)
     })
 })
 
