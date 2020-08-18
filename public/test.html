@@ -12,8 +12,16 @@
             #messages li { padding: 5px 10px; }
             #messages li:nth-child(odd) { background: #eee; }
         </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="styles/custom.css">
     </head>
     <body>
+        
+        <div>
+            <h3>enter username</h3>
+            <input class="enter-username" />
+        </div>
     <ul id="messages"></ul>
         <form action="">
             <input id="m" autocomplete="off" /><button>Send</button>
@@ -34,5 +42,6 @@
                 })
             })
         </script>
+        
     </body>
 </html>

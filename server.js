@@ -10,6 +10,8 @@ require('dotenv').config()
 // vue components
 // Vue.component('navbar', require('./views/components/Navbar.vue'))
 
+//app.use(Express.static(__dirname + '/public'))
+
 // initialize for use
 // app.set('view engine', 'vuexpress')
 // app.use('/npm', Express.static('node_modules'))
@@ -21,12 +23,15 @@ app.get('/', (req, res) => {
 })
 
 io.on('connection', (socket) => {
+    let newUser = false
     socket.on('message', (msg) => {
-        io.emit('message', msg)
+        socket.emit('message', msg)
     })
     console.log('🦦 user online 🦦')
-    socket.on('🌊 disconnected 🌊', () => {
-        console.log('')
+    socket.on('new user', (username) => {
+        if (newUser) return
+        socket.username = username
+        newUser = true
     })
 })
 
