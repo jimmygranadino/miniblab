@@ -15,12 +15,5 @@ export default {
 </script>
 
 <style scoped>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font: 13px Helvetica, Arial; }
-        form { padding: 3px; position: absolute; bottom: 0; width: 100%; }
-        form input { border: 0; padding: 10px; width: 85%; margin-right: 0.5%; }
-        form button { width: 9%; background: rgb(130, 224, 255); border: none; }
-        #messages { list-style-type: none; margin: 0; padding: 0; }
-        #messages li { padding: 5px 10px; }
-        #messages li:nth-child(odd) { background: #eee; }
+
 </style>
