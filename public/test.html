@@ -12,7 +12,7 @@
             #messages li { padding: 5px 10px; }
             #users { font-weight: 400;}
             .overflow {
-                height: 90vh;
+                height: 85vh;
                 overflow-y: scroll;
                 overscroll-behavior-y: contain;
                 scroll-snap-type: y mandatory;
@@ -28,7 +28,7 @@
     <body>
         <input id="u" class="user-input" placeholder="Enter username here..." ></input>
         <div class="overflow">
-            <div id="users"></div><div id="messages"></div>
+            <div class="users" id="messages"></div>
             <form action="">
                 <input id="m" autocomplete="off" maxlength=120 /><button>Send</button>
             </form>
@@ -46,10 +46,10 @@
                     return false
                 })
                 socket.on('user', function(user) {
-                    $('#users').append($('<div>').text(user))
+                    $('.users').append($('<strong>').text(user).append(': '))
                 })
                 socket.on('message', function(msg) {
-                    $('#messages').append($('<div>').text(msg))
+                    $('#messages').append($('<span>').text(msg).append('<br />'))
                 })
             })
         </script>

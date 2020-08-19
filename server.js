@@ -7,14 +7,8 @@ let Vue = require('vue/dist/vue.js')
 let io = require('socket.io')(server)
 require('dotenv').config()
 
-// vue components
-// Vue.component('navbar', require('./views/components/Navbar.vue'))
-
-//app.use(Express.static(__dirname + '/public'))
-
 // initialize for use
 // app.set('view engine', 'vuexpress')
-// app.use('/npm', Express.static('node_modules'))
 // app.use(Express.static('app'))
 
 // some basic routes
