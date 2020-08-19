@@ -28,15 +28,15 @@ io.on('connection', (socket) => {
             username: msg.user
         }
         chat.push(newChat)
-        socket.emit('message', msg)
+        io.emit('message', msg)
     })
     console.log('🦦 user online 🦦')
     socket.on('new user', (user) => {
         username.push({ username: user })
-        socket.emit('new user', user)
+        io.emit('new user', user)
     })
     socket.on('user', (user) => {
-        socket.emit('user', user)
+        io.emit('user', user)
     })
 })
 

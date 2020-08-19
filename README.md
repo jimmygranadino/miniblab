@@ -29,8 +29,8 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] Pretty because i 💖 frontend way more
 
 ## Stretch Goals
-- [ ] Mobile friendly
-- [ ] SPA if possible because I love SPAs
+- [x] Mobile friendly
+- [x] SPA if possible because I love SPAs
 - [ ] Register username for unique use
 - [ ] Browseable history log of chatroom any time window is refreshed.
     - [ ] Maybe limit to 100 messages that can be retrieved
@@ -73,7 +73,6 @@ Myself as Dev and my cat, Paris, for moral support.
 #### Day 5: 
 - [x] Implement username
 - [ ] Stretch goal time, need DB to store chat history and username registration.
-- [ ] Have a TA or Instructor take a look if progress is sufficient and share any struggles with stretch goal.
 - [ ] DEPLOYMENT!
 
 #### Day 6:

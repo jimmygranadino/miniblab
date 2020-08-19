@@ -1,9 +1,9 @@
 <template>
     <div class="row justify-content-center my-5 py-5">
-        <div class="col-4 my-5 py-5">
+        <div class="col-md-4 my-5 py-5">
             <h1 class="blab-font my-5 py-5 text-right">miniBlab</h1>
         </div>
-        <div class="col-4 my-5 py-5 blab-landing">
+        <div class="col-md-4 my-5 py-5 blab-landing">
             <h6 class="mt-5 pt-5 blab-font">Lets get blabbing</h6>
             <a href="#display"><button class="button-primary">
                 START 
