@@ -73,7 +73,7 @@ Myself as Dev and my cat, Paris, for moral support.
 #### Day 5: 
 - [x] Implement username
 - [ ] Stretch goal time, need DB to store chat history and username registration.
-- [ ] DEPLOYMENT!
+- [x] DEPLOYMENT!
 
 #### Day 6:
 - [ ] Presentation!
