@@ -41,6 +41,9 @@ io.on('connection', (socket) => {
         username.push({ username: user })
         socket.emit('new user', user)
     })
+    socket.on('user', (user) => {
+        socket.emit('user', user)
+    })
 })
 
 server.listen(process.env.PORT || 5000, () => {

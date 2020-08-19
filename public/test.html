@@ -2,13 +2,13 @@
 <html>
         <head>
         <title>test of socket.io chat</title>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
         <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-            body { font: 13px Helvetica, Arial; }
             form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
             form input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
             form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-            #messages { font-family: 'Source Sans Pro', sans-serif; list-style-type: none; margin: 0; padding: 0; height: 80%;}
+            #messages { list-style-type: none; margin: 0; padding: 0; height: 80%;}
             #messages li { padding: 5px 10px; }
             #users { font-weight: 400;}
             .overflow {
@@ -24,12 +24,11 @@
             .user-input { margin: 10px 0 10px 0; padding: 1px; width: 98%;}
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <input id="u" class="user-input" placeholder="Enter username here..." ></input>
         <div class="overflow">
-            <div id="users"><div id="messages"></div></div>
+            <div id="users"></div><div id="messages"></div>
             <form action="">
                 <input id="m" autocomplete="off" maxlength=120 /><button>Send</button>
             </form>
@@ -41,30 +40,18 @@
                 var socket = io()
                 $('form').submit(function(e) {
                     e.preventDefault()
-                    socket.emit('message', $('#u').val())
+                    socket.emit('user', $('#u').val())
                     socket.emit('message', $('#m').val())
                     $('#m').val('')
                     return false
+                })
+                socket.on('user', function(user) {
+                    $('#users').append($('<div>').text(user))
                 })
                 socket.on('message', function(msg) {
                     $('#messages').append($('<div>').text(msg))
                 })
             })
-
-            const out = document.getElementsByClassName("overflow")
-
-            setInterval(function() {
-                // allow 1px inaccuracy by adding 1
-                const isScrolledToBottom = out.scrollHeight - out.clientHeight <= out.scrollTop + 1
-                // scroll to bottom if isScrolledToBottom is true
-                if (isScrolledToBottom) {
-                out.scrollTop = out.scrollHeight - out.clientHeight
-                }
-            }, 500)
-
-            function format () {
-            return Array.prototype.slice.call(arguments).join(' ')
-            }
         </script>
         
     </body>
