@@ -76,7 +76,7 @@ Myself as Dev and my cat, Paris, for moral support.
 - [x] DEPLOYMENT!
 
 #### Day 6:
-- [ ] Presentation!
+- [x] Presentation!
 
 
 ## Tech Stack
@@ -84,7 +84,7 @@ Myself as Dev and my cat, Paris, for moral support.
 * Node.js
 * Express
 * Bootstrap for layout + Custom CSS
-* BACKEND: MongoDB maybe? But Postgres will let me deploy to Heroku
+* Heroku for server, Netlify for frontend
 
 ## Deployment
-* Netlify (love it) or Heroku (fussy but will host a postgres DB)
+* Netlify + Heroku
