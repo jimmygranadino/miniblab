@@ -1,12 +1,15 @@
 <template>
   <div class="container-fluid" id="fade">
     <Header />
+    <div class="row mx-auto py-5 my-5"></div>
     <Chat />
+    <div class="row mx-auto py-5 my-5"></div>
     <div class="row mx-auto my-5"></div>
     <div class="row justify-content-center mx-auto">
       <About />
       <Contact />
     </div>
+    <div class="row mx-auto py-5 my-5"></div>
     <div class="row mx-auto my-5"></div>
     <Footer />
   </div>
